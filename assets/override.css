@@ -1,0 +1,144 @@
+body {background-color: white;
+      color: black;}
+
+#full-page{
+  width: 97%;
+}
+
+.loading-icon{
+  width: 100%;
+}
+
+#header-div {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#filter-div {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: auto;
+}
+
+.dash-dropdown{
+  width: 200px;
+}
+
+#output-container-date-picker-range{
+  margin: auto;
+}
+
+#total-table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 700px;
+}
+
+#my-date-picker-range{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.DateRangePickerInput{
+  background-color: white;
+}
+
+.DateInput{
+  background: white;
+}
+
+#left-container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 49%;
+  margin-right: 0px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+#right-container{
+  background-color: white;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width:49%;
+  align-self: right;
+  margin-left: 0px;
+  padding-bottom: 50px;
+}
+
+#governing-class-code-table{
+  margin-top: 50px;
+}
+
+#loading-icon-governing-class-code-table{
+  margin-top: 300px;
+}
+
+#leads_lead_status_by_effective_month_fig2{
+  height: 650px;
+}
+
+input[type="text"], textarea {
+
+  background-color : white;
+  color: black;
+
+}
+
+.DateRangePickerInput_arrow_svg{
+  fill: black;
+}
+
+.DateRangePickerInput__withBorder {
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+
+#cutoff-slider-fig3{
+  margin: auto;
+  width: 80%;
+}
+
+#dials_lead_status_by_governing_class_code_fig4{
+  height: 900px;
+}
+
+#cutoff-slider-classcode{
+  margin: auto;
+  width: 80%;
+}
+
+#dials_lead_status_by_insurance_group_fig5{
+  height: 900px;
+}
+
+#cutoff-slider-insurance{
+  margin: auto;
+  width: 80%;
+}
+
+.dash-graph{
+   width: 100%;
+}
